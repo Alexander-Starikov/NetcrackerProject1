@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Client client1 = new Client(123483, "Alex Starikov", "male", "20.11.1999",1519147364);
-        ContractInternet contractInternet1 = new ContractInternet(1234, "20.11.2020", "20.11.2030", 1, client1, 100);
+        Client client1 = new Client(12345, "a b", "m", "19991026", 1513134734);
+        List<Object> list = new ArrayList<Object>();
 
+        System.out.println(client1.clientGetAge(client1.getClientBirthday()));
     }
 }
