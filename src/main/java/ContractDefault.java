@@ -33,4 +33,40 @@ public class ContractDefault {
     public int getContractID() {
         return contractID;
     }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public String getEndDate() {
+        return endDate;
+    }
+
+    public int getContractNumber() {
+        return contractNumber;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setContractID(int contractID) {
+        this.contractID = contractID;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
+    }
+
+    public void setContractNumber(int contractNumber) {
+        this.contractNumber = contractNumber;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
 }
